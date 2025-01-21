@@ -8,12 +8,7 @@ export default function Apifetch({ url, children}) {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        fetch(url, {
-            headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json",
-            },
-        })
+        fetch(url)
             .then((reponse) => {
                 if (!reponse.ok) {
                     throw new Error("Erreur lors de la récupération des données de l'API");
