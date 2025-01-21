@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 
 export default function Apifetch({ url, children}) {
-    const [Data, setData] = useState(null);
+    const [Data, setData] = useState([]);
     const [Error, setError] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
 
