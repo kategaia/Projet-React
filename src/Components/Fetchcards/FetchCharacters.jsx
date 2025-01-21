@@ -1,5 +1,5 @@
-import Apifetch from "../../api/Apifetch";
-import Comment from "../Comments/Comments";
+import Apifetch from '../../api/Apifetch';
+import Comment from '../Comments/Comments';
 
 export default function FetchCharacters() {
   return (
@@ -16,7 +16,7 @@ export default function FetchCharacters() {
                   .map((charact) => (
                     <div key={charact.name} style={{border: "1px solid black", margin: "10px", padding: "30px", backgroundColor: "black", color: "white"}}>
                         <p>{charact.name}</p>
-                        <p>{charact.appearances}</p>
+                        <a href={charact.appearances}>Test</a>
                         <div>
                           <Comment />
                         </div>
@@ -30,5 +30,5 @@ export default function FetchCharacters() {
         }}
       </Apifetch>
     </>
-    );
+  );
 }
