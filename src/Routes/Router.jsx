@@ -7,6 +7,7 @@ import FetchPlaces from "../Components/Fetchcards/FetchPLaces";
 import Home from "../Pages/Home"
 import { AuthProvider } from "../auth/AuthProvider";
 import Contact from "../Components/Contact/Contact";
+import NotFound from "../Components/404/404";
 
 export default function Router() {
     return (
@@ -19,6 +20,7 @@ export default function Router() {
                 <Route path="/Character" element={<FetchCharacters />} />
                 <Route path ="/Place" element={<FetchPlaces />} />
                 <Route path="/Contact" element={<Contact />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </AuthProvider>
     )
