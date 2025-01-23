@@ -19,6 +19,7 @@ export default function Header() {
         </a>
       )}
       <h1 className="header__title">{displayName}</h1>
+      <h4>Bienvenu au marché Zelda</h4>
     </div>
   );
 }

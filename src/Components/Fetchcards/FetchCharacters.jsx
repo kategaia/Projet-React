@@ -17,6 +17,8 @@ export default function FetchCharacters() {
                   .map((charact) => (
                     <div key={charact.id} style={{border: "1px solid black", margin: "10px", padding: "30px", backgroundColor: "black", color: "white"}}>
                         <p>{charact.name}</p>
+                        <p>{charact.race}</p>
+                        <p>{charact.description}</p>
                         <div>
                           <Comment />
                         </div>

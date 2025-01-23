@@ -16,7 +16,7 @@ export default function FetchItems() {
                   .map((item) => (
                     <div key={item.name} style={{border: "1px solid black", margin: "10px", padding: "30px", backgroundColor: "black", color: "white"}}>
                       <p>{item.name}</p>
-                      <p>{item.appearances}</p>
+                      <p>{item.description}</p>
                       <div>
                         <Comment />
                       </div>

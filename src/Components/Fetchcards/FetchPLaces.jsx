@@ -16,7 +16,7 @@ export default function FetchPlaces() {
                   .map((place) => (
                     <div key={place.name} style={{border: "1px solid black", margin: "10px", padding: "30px", backgroundColor: "black", color: "white"}}>
                       <p>{place.name}</p>
-                      <p>{place.appearances}</p>
+                      <p>{place.description}</p>
                       <div>
                         <Comment />
                       </div>

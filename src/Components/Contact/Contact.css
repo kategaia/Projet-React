@@ -1,0 +1,61 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #242424;
+    color: #025712;
+    margin: 0;
+    padding: 0;
+    background-image: url('path-to-zelda-background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 2em;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #264653;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #2a9d8f;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #d62828;
+}

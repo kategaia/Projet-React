@@ -2,6 +2,7 @@ import { Link } from "react-router"
 import { Login } from "../auth/LoginOut"
 import { Logout } from "../auth/LoginOut"
 import { useAuth } from "../auth/AuthProvider"
+import "./Home.css"
 
 export default function Home() {
     const { user } = useAuth();

@@ -1,0 +1,57 @@
+body {
+    background-image: url('path/to/your/zelda-background.jpg');
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

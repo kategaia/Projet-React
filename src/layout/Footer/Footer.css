@@ -1,0 +1,38 @@
+.footer {
+    background-color: #0b3d91; /* Dark blue color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+}
+
+.footer a {
+    color: #ffcc00; /* Gold color for links */
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .logo {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: auto;
+}

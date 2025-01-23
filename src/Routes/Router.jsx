@@ -6,6 +6,7 @@ import FetchItems from "../Components/Fetchcards/FetchItems";
 import FetchPlaces from "../Components/Fetchcards/FetchPLaces";
 import Home from "../Pages/Home"
 import { AuthProvider } from "../auth/AuthProvider";
+import Contact from "../Components/Contact/Contact";
 
 export default function Router() {
     return (
@@ -17,6 +18,7 @@ export default function Router() {
                 <Route path="/Item" element={<FetchItems />} />
                 <Route path="/Character" element={<FetchCharacters />} />
                 <Route path ="/Place" element={<FetchPlaces />} />
+                <Route path="/Contact" element={<Contact />} />
             </Routes>
         </AuthProvider>
     )
